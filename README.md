@@ -1,23 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentine's Animation for ASEC Employees</title>
     <style>
-        body {
-            background-color: #ffccd5;
-            overflow: hidden;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-            flex-direction: column;
-            position: relative;
-        }
-        
+body {
+    background-color: #ffccd5;
+    overflow-y: auto; /* Allows vertical scrolling */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    min-height: 100vh; /* Allows content to grow */
+    padding: 20px; /* Adds space for mobile */
+}
+   
         /* Background Flowers */
         .background-flower {
             position: absolute;
